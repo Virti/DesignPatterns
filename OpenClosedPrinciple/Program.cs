@@ -6,6 +6,10 @@ namespace OpenClosedPrinciple
     {
         static void Main(string[] args)
         {
+            /*
+             * To better understand this example, I'd suggest reading BadPolicyChecker
+             * source code first.
+             */
             var passwordRetentionPolicy = new OneMonthPasswordRetentionPolicy();
             var accountActivePolicy = new ActiveForAtLeastMonthPolicy();
 
